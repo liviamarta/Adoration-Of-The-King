@@ -1,0 +1,60 @@
+body{
+    background-color: white; 
+    margin:0px; 
+    padding: 0px; 
+    border: 0px; 
+    font-family: Arial, Helvetica, sans-serif; /*permite que se faça uma lista de prioridades de familias de fontes e seus nomes genéricos*/
+}
+header {
+    background-image: url(images3.jpeg);
+    color:white;
+    display:flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 3px; 
+    padding-left: 22px; 
+    padding-right: 22px; 
+}
+header img{
+    width: 86px; 
+    height: 86px;
+    padding-right: 26px; 
+    padding-bottom: 15px; 
+    padding-top: 10px;
+}
+main{
+    background-image: url(image5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    height: 682px;
+    width: 1600px;
+}
+.text{
+    margin-top: 50px;
+}
+.text h2{
+    font-size:120px;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    margin-bottom: -10;
+    line-height: 115px;
+    margin-top: 20px;
+}
+.text p{
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#pesquisar{
+    height: 40px;
+    width: 40x;
+    border-radius: 60px;
+}
+img {
+    margin-bottom: -10px;
+}
+
